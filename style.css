@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+    background-color: #F1E9D2;
+}
+
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 10px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    /* keep at the bottom of the page */
+    position: fixed;
+    bottom: 0;
+    /* full width */
+    left: 0;
+    right: 0;
+    font-size: x-small;
+    text-align: center;
+    padding: 10px;
+}
